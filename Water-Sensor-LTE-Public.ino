@@ -1,6 +1,6 @@
 /*  
     This is a simple water float switch alert device. When the float switch reaches its lower limit,
-    the Arduino will activate the Botletics SIM7000 shield and send a HTTPS POST command to hologram.io,
+    the Arduino will activate the Botletics SIM7000 shield and send a TCP payload to hologram.io,
     which will then route an email to the owner.
     
     Author: Jefflikesbagels (jeff@jefflikesbagels.net)
